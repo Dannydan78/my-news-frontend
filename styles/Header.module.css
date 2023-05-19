@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'OldLondon';
+    src: url('../public/font/OldLondon.ttf');
+}
+
+.monHeader{
+    padding: 20px;
+    border-bottom-color: rgb(233, 190, 89);
+    border-bottom-width: 2px;
+    border-bottom-style: solid ;
+}
+
+.headerContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titreMynews {
+    font-size: xx-large;
+    font-family: OldLondon;
+}
+
+.navig {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    letter-spacing: 2;
+}
+
+.userIcon{
+    width: 25px;
+    height: 25px;
+    margin-right: 50px;
+}
+
+
+.link:hover{
+    color:  rgb(233, 190, 89);
+}
