@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bookmarksTitle{
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color:lightblue ;
+    height: 60px;
+    padding-top: 30px;
+}
+
+.bookmarksContainer{
+    margin-top: 50px;
+}

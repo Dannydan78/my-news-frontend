@@ -1,41 +1,77 @@
 @font-face {
-    font-family: 'OldLondon';
-    src: url('../public/font/OldLondon.ttf');
+    font-family: "Old London";
+    src: url('/fonts/Oldlondon.ttf');
 }
 
-.monHeader{
-    padding: 20px;
-    border-bottom-color: rgb(233, 190, 89);
-    border-bottom-width: 2px;
-    border-bottom-style: solid ;
-}
-
-.headerContainer {
-    margin-top: 10px;
+.header {
     display: flex;
-    justify-content: space-between;
-}
-
-.titreMynews {
-    font-size: xx-large;
-    font-family: OldLondon;
-}
-
-.navig {
-    padding: 20px;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 100px;
-    letter-spacing: 2;
+    align-items: center;
+    border-bottom: 2px var(--yellow-color) solid;
 }
 
-.userIcon{
-    width: 25px;
-    height: 25px;
-    margin-right: 50px;
+.logoContainer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.title {
+    font-family: "Old London";
+    font-size: 40px
+}
+
+.userIcon {
+    font-size: 22px;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.linkContainer {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 20px
 }
 
 
-.link:hover{
-    color:  rgb(233, 190, 89);
+
+.link:hover {
+    color: var(--yellow-color);
 }
+
+.registerContainer {
+    display: flex;
+    margin-bottom: 10px;
+    border-top: 1px lightgray solid;
+}
+
+.registerSection {
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout {
+    cursor: pointer;
+    color: var(--yellow-color);
+    padding-left: 10px;
+}
+
+.eyeIcon {
+    position: absolute;
+    top: 45px;
+    right: 200px
+}
+
+
+

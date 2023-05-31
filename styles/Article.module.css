@@ -1,15 +1,8 @@
-.articleContainer{
+.articleContainer {
     width: 400px;
     height: 400px;
     margin: 10px;
     margin-bottom: 130px;
-}
-
-.divider{
-    width: 100%;
-    height: 1px;
-    background-color: rgb(233, 190, 89);
-    margin: 15px 0;
 }
 
 .articleHeader {
@@ -18,10 +11,21 @@
     justify-content: space-between;
 }
 
-.bookmarkIcon{
+.divider {
+    border-bottom: 1px var(--yellow-color) solid;
+    margin: 15px 0;
+}
+
+.eyeIcon {
+    padding-right: 5px;
+}
+
+.bookmarkIcon,
+.eyeIcon {
     cursor: pointer;
 }
 
-.bookmarkIcon:hover{
+.bookmarkIcon:hover,
+.eyeIcon:hover {
     opacity: 0.6;
 }
